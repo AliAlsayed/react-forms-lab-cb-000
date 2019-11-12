@@ -22,7 +22,8 @@ class LoginForm extends React.Component {
         <div>
           <label>
             Username
-            <input id="username" name="username" type="text" />
+            <input id="username" name="username" type="text"
+            onChange={this.handleChange} />
           </label>
         </div>
         <div>
